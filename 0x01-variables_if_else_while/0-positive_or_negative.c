@@ -15,7 +15,7 @@ int main(void)
 	int n;
 
 	srand(time(NULL));
-	n = rand() % 200 - 100;
+	n = rand() % 201 - 100;
 	if (n > 0)
 	{
 	printf("%d is positive\n", n);
