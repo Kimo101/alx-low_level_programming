@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int i = 0;
-    putchar(i++ + '0');
-    while (i < 10) {
-        putchar(',');
-        putchar(' ');
-        putchar(i++ + '0');
-    }
+    putchar('0');
+    while (putchar(',') & putchar(' '), ++i < 10)
+        putchar(i + '0');
+    putchar('\n');
     return 0;
 }
 
