@@ -10,7 +10,7 @@
 int main(void)
 {
 	int n = rand();
-	int last_digit = n % 10;
+	int last_digit = n % 1000+1;
 
 	srand(time(NULL));
 	printf("Last digit of %d is ", n);
