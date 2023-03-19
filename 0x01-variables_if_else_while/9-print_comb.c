@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int main(void) {
-    int i, j;
-
-    for (i = 0; i < 10; i++) {
-            putchar(i + '0');
-            if (i != 9) {
-                putchar(',');
-            }
-        }
+int main() {
+    int i = 0;
+    putchar(i++ + '0');
+    while (i < 10) {
+        putchar(',');
+        putchar(' ');
+        putchar(i++ + '0');
+    }
     return 0;
 }
 
