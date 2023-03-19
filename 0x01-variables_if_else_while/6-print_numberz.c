@@ -14,7 +14,6 @@ int main(void)
 	{
 	putchar(i + 48);
 	}
-	
 	/* print new line */
 	putchar('\n');
 
