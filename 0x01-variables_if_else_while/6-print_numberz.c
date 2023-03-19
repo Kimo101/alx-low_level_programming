@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-        int i;
+	int i;
 
-        /* print single digit numbers */
-        for (i = 0; i <= 9; i++)
-        {
-                putchar(i + 48);
-        }
-        
-        /* print new line */
-        putchar('\n');
-        
-        return (0);
+	/* print single digit numbers */
+	for (i = 0; i <= 9; i++)
+	{
+	putchar(i + 48);
+	}
+	
+	/* print new line */
+	putchar('\n');
+
+	return (0);
 }
 
