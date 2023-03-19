@@ -9,16 +9,16 @@
  */
 int main(void)
 {
-	int n = rand();
-	int last_digit = n % 1000+1;
+	int n;
+	n = rand();
 
-	srand(time(NULL));
-	printf("Last digit of %d is ", n);
-	if (last_digit > 5)
+	srand(time(0));
+	printf("Last digit of %d is %d ", n, abs(n%10));
+	if (n > 5)
 	{
 	printf("and is greater than 5\n");
 	}
-	else if (last_digit == 0)
+	else if (n%10  == 0)
 	{
 	printf("and is 0\n");
 	}
