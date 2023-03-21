@@ -3,9 +3,9 @@
 /**
 * main - this function will print alphabet
 * Return: always success
-*/
-
-void print_alphabet(void) /*print_alphabet -  will print alphabet */
+*
+* print_alphabet -  will print alphabet */
+void print_alphabet(void)
 {
 	char c;
 
