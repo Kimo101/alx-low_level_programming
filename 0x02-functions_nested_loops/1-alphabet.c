@@ -5,7 +5,7 @@
 * Return: always success
 */
 
-void print_alphabet(void) /**this functon will print alphabet **/
+void print_alphabet(void) /*print_alphabet -  will print alphabet */
 {
 	char c;
 
