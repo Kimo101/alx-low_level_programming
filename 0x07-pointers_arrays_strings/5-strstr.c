@@ -4,7 +4,8 @@
  * _strstr - find the first occurrence of a substring within a given string
  * @haystack: input value
  * @needle: input value
- * Return: pointer to the beginning of the located substring, or NULL if not found
+ * Return: pointer to the beginning of the located substring
+ * or 0 if not found
  */
 char *_strstr(char *haystack, char *needle)
 {
