@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strpbrk - function that searches a given string for the first 
+* _strpbrk - function that searches a given string for the first
 * occurrence of any character in a specified set of characters
 * @s: input value
 * @accept: input value
