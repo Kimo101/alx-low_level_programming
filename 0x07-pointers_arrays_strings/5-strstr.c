@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
-* _strstr - find the first occurrence of a substring within a given string
-* @haystack: input value
-* @needle: input value
-* Return: always success
-*/
-
+ * _strstr - find the first occurrence of a substring within a given string
+ * @haystack: input value
+ * @needle: input value
+ * Return: pointer to the beginning of the located substring, or NULL if not found
+ */
 char *_strstr(char *haystack, char *needle)
 {
-
 	for (; *haystack != '\0'; haystack++)
 	{
 	char *I = haystack;
@@ -20,9 +18,13 @@ char *_strstr(char *haystack, char *needle)
 	I++;
 	p++;
 	}
+
 	if (*p == '\0')
 	{
-	return (haystack);
+		return (haystack);
 	}
+	}
+
 	return (0);
 }
+
